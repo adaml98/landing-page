@@ -4,7 +4,11 @@ nav, .hero, .hero-section-1, .hero-section-2 {
 }
 
 nav, .hero {
-    margin: 0 100px;
+    margin: 0 10%;
+}
+
+.hero {
+    padding: 5% 0;
 }
 
 header, footer,h1 {
@@ -27,8 +31,11 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
-    
+    width: 50%; 
+}
+
+.hero-section-1 h1, p{
+    margin: 0;
 }
 
 .hero-section-2 {
@@ -69,7 +76,8 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    text-align: center;
     gap: 50px;
 }
 
@@ -97,21 +105,25 @@ button {
 }
 
 .name{
-    margin-left: 60%;
+    margin-right: 5%;
+    text-align: right;
     margin-top: 0;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 26px;
 }
 
 .body2 {
     background-color: #E5E7EB;
     color: #1F2937;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: lighter;
-    padding: 100px;
+    padding: 60px 20%;
 }
 
 .body3 {
-    padding: 20px 50px;
+    padding: 5% 15%;
     display: flex;
 }
 
@@ -140,8 +152,17 @@ footer {
 
     text-align: center;
     background-color: #1F2937;
+    padding: 3%;
+}
+
+footer p {
+    margin: 0;
 }
 
 .call-to-action p, h3{
     margin: 5px;
+}
+
+body {
+    margin: 0;
 }
