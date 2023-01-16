@@ -21,10 +21,6 @@ h1{
     font-size: 48px;
     font-weight: 900;
 }
-*{
-    border: 1px solid;
-}
-
 
 
 .hero-section-1{
@@ -98,8 +94,20 @@ button {
     text-align: center;
 }
 
-.image-section p {
-
+.quote{
+    margin: 0;
 }
 
+.name{
+    margin-left: 85%;
+    margin-top: 0;
+}
 
+.body2 {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 100px;
+}
