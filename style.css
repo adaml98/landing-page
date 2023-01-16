@@ -32,8 +32,6 @@ h1{
 }
 
 .hero-section-2 {
-    background-color: grey;
-    border: 1px solid;
     justify-content: center;
     width: 50%;
     align-items: center;
@@ -50,7 +48,7 @@ nav{
     font-size: 24px;
 }
 img{
-    width: 100%;
+    width: 90%;
     height: auto;
 }
 
@@ -99,7 +97,7 @@ button {
 }
 
 .name{
-    margin-left: 85%;
+    margin-left: 60%;
     margin-top: 0;
 }
 
@@ -110,4 +108,40 @@ button {
     font-style: italic;
     font-weight: lighter;
     padding: 100px;
+}
+
+.body3 {
+    padding: 20px 50px;
+    display: flex;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: white;
+    width: 100%;
+    padding: 3%;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+.column-2 {
+    display: flex;
+    width: 20%;
+    justify-items: flex-end;
+    align-items: center;
+}
+
+.call-to-action button {
+    border-color: white;
+}
+
+footer {
+
+    text-align: center;
+    background-color: #1F2937;
+}
+
+.call-to-action p, h3{
+    margin: 5px;
 }
